@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 project(sonar_scanner_example)
 
 set(CMAKE_CXX_STANDARD 17)
-file(GLOB_RECURSE ENDF6_SRC ${PROJECT_SOURCE_DIR} *.cpp)
+file(GLOB_RECURSE SOURCES src/*.cpp)
 
 
 
